@@ -27,7 +27,7 @@ p{
 }
 .image{
 
-    widows: 250px; /*width of your image*/
+    width: 250px; /*width of your image*/
    height: 100px; /*height of your image*/
    margin:0; /* If you want no margin */
    padding:20; /*if your want to padding */
@@ -41,7 +41,6 @@ p{
     border: 2px solid #b42025;
     font-size: 20px;
     color: #ffffff;
-    display: flex;
 }
 .btn.sm{
     width: 230px;
