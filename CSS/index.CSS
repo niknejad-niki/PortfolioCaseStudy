@@ -100,11 +100,13 @@ p{
 .btt.am{
     width: 230px;
     height: 46px;
-    background-color: #ffffffc;
+    background-color: #ffffff;
     border-radius: 20px;
     border: 2px solid #00070c;
-    Color: #00070c;
+    Color: #00070c; 
 }
+   
+
 .btt.pm{
     width: 230px;
     height: 46px;
