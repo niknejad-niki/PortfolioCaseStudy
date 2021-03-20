@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Frank Ruhl Libre', serif;
+}
+
+html{
+  font-size: 16px;
+  font-family:'Frank Ruhl Libre', serif;
+  color: #00070c; 
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+section{
+    background-color: rgb(200, 200, 200 .5);
+    padding: 20px;
+    margin: 2% 0;
+}
+p{
+    font-style: italic;
+    /*font-weight: 100;*/
+}
+.image{
+
+    widows: 250px; /*width of your image*/
+   height: 100px; /*height of your image*/
+   margin:0; /* If you want no margin */
+   padding:20; /*if your want to padding */
+}
+
+.btn{
+    width: 230px;
+    height: 46px;
+    background-color: #b42025;
+    border-radius: 20px;
+    border: 2px solid #b42025;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btn.sm{
+    width: 230px;
+    height: 46px;
+    background-color: #f42415;
+    border-radius: 20px;
+    border: 2px solid #f42415;
+    color: #00070c;
+}
+.btn.mm{
+    width: 230px;
+    height: 46px;
+    background-color: #670c06;
+    border-radius: 20px;
+    border: 2px solid #670c06;
+}
+.btn.am{
+    width: 230px;
+    height: 46px;
+    background-color: #00070c;
+    border-radius: 20px;
+    border: 2px solid #00070c;
+}
+.btn.pm{
+    width: 230px;
+    height: 46px;
+    background-color: #989A9A;
+    border-radius: 20px;
+    border: 2px solid #989A9A;
+}
+
+.btt{
+    width: 230px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #b42025;
+    font-size: 20px;
+    color: #b42025;
+}
+.btt.sm{
+    width: 230px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #f42415;
+    color: #f42415;
+}
+.btt.mm{
+    width: 230px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #670c06;
+    color:  #670c06;
+}
+.btt.am{
+    width: 230px;
+    height: 46px;
+    background-color: #ffffffc;
+    border-radius: 20px;
+    border: 2px solid #00070c;
+    Color: #00070c;
+}
+.btt.pm{
+    width: 230px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #989A9A;
+    color: #989A9A;
+}
+header{
+    background: #ffffff;
+}
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 220px;
+    height: 50px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+header nav a {
+    color: #00070c;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 18px;
+    font-family:'Frank Ruhl Libre', serif ;
+}
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+nav{
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: #00070c;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 18px;
+    font-family:'Frank Ruhl Libre', serif ;
+}
