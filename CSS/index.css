@@ -80,7 +80,13 @@ p{
     border: 2px solid #b42025;
     font-size: 20px;
     color: #b42025;
+    transition:  background-color;
 }
+.btt:hover{
+    background-color: #b42025;
+    color:#ffffff;
+}
+
 .btt.sm{
     width: 230px;
     height: 46px;
@@ -88,6 +94,11 @@ p{
     border-radius: 20px;
     border: 2px solid #f42415;
     color: #f42415;
+    transition:  background-color;
+}
+.btt.sm:hover{
+    background-color: #f42415;
+    color:#ffffff;
 }
 .btt.mm{
     width: 230px;
@@ -96,6 +107,11 @@ p{
     border-radius: 20px;
     border: 2px solid #670c06;
     color:  #670c06;
+    transition:  background-color;
+}
+.btt.mm:hover{
+    background-color: #670c06;
+    color:#ffffff;
 }
 .btt.am{
     width: 230px;
@@ -104,6 +120,11 @@ p{
     border-radius: 20px;
     border: 2px solid #00070c;
     Color: #00070c; 
+    transition:  background-color;
+}
+.btt.am:hover{
+    background-color: #00070c;
+    color:#ffffff;
 }
    
 
@@ -114,7 +135,13 @@ p{
     border-radius: 20px;
     border: 2px solid #989A9A;
     color: #989A9A;
+    transition:  background-color;
 }
+.btt.pm:hover{
+    background-color: #989A9A;
+    color:#ffffff;
+}
+
 header{
     background: #ffffff;
 }
@@ -183,3 +210,12 @@ nav a {
     font-size: 18px;
     font-family:'Frank Ruhl Libre', serif ;
 }
+.child2{
+    display:ruby-base-container
+
+}
+.child{
+    float:right;
+    display: inline;
+}
+
